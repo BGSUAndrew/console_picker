@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.rbq_result_outer_container {
+  background-color: blue;
+  background-image: none;
+}

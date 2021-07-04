@@ -1,7 +1,7 @@
 import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
 import "react-buzzfeed-quiz/lib/styles.css";
 import './App.css';
-
+import Xbox from "./assets/xbox.jpg";
 
 const App = () => {
   return (
@@ -120,8 +120,10 @@ const App = () => {
       results={[
         {
           title: "Xbox Series S or X",
+          description: "Your second result description goes here",
           resultID: 0,
           resultID: 1,
+          resultImageSrc: Xbox,
         },
         {
           title: "Playstation 5",
