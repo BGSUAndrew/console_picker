@@ -5,9 +5,12 @@ import Xbox from "./assets/xbox.jpg";
 import PS5 from "./assets/ps5.jpg"
 import Switch from "./assets/nintendo.png";
 import Stadia from "./assets/stadia.jpg";
+import Welcome from "./components/HelloWorld";
 
 const App = () => {
   return (
+    <div>
+    <Welcome />
     <BuzzFeedQuiz
       title={"Choose your console quiz"}
       autoScroll={true}
@@ -148,6 +151,7 @@ const App = () => {
         },
       ]}
     />
+    </div>
   );
 };
 
