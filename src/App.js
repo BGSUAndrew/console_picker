@@ -130,6 +130,7 @@ const App = () => {
           resultID: 0,
           resultID: 1,
           resultImageSrc: Xbox,
+          findProduct: "Xbox.com"
         },
         {
           title: "Playstation 5",
